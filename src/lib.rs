@@ -12,7 +12,7 @@ pub mod validation;
 
 pub use reqwest::Error as ReqError;
 
-const MAILGUN_API: &str = "https://api.mailgun.net/v3";
+const MAILGUN_API: &str = "https://api.eu.mailgun.net/v3";
 
 ///! Wrapper result type returning `reqwest` errors
 pub type MailgunResult<T> = Result<T, ReqError>;
